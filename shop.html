@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mankoskin - Home Decor Products</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-------------X----X-------------->
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="./assets/css/custom.css">
+    <!-- CUSTOM CSS -->
+    <!-------------X----X-------------->
+
+
+
+    <!-------------X----X-------------->
+    <!-- TAILWIND CSS CONFIG -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'buttered-rum': {
+                '50': '#fbfde9',
+                '100': '#f6fbc6',
+                '200': '#f2f890',
+                '300': '#f0f351',
+                '400': '#ede922',
+                '500': '#ddd115',
+                '600': '#bfa60f',
+                '700': '#a68411',
+                '800': '#7e6015',
+                '900': '#6c4e17',
+              }, 
+            }
+          }
+        }
+      }
+    </script>
+    
+    <!-- TAILWIND CSS CONFIG -->
+    <!-------------X----X-------------->
+
+  </head>
+  <body>
+
+    <!-------------X----X-------------->
+    <!-- HEADER -->
+    <header class="flex bg-white h-40 shadow-lg">
+      <div class="flex flex-col w-full h-full">
+        <div class="flex flex-row justify-between items-center text-center p-8">
+          <div class="w-1/3 items-center text-center justify-start mx-12"><a href="#"><img class="w-40" src="./assets/svg/mankoskin_hor.svg" alt=""></a></div>
+          <div class="w-1/3 items-center text-center justify-center">
+            <form>
+                <div class="flex">
+                    <div class="relative w-full">
+                        <input type="search" class="block p-2.5 w-full z-20 text-sm text-black rounded-full border-2 border-solid border-buttered-rum-700 focus:outline-none" placeholder="Search for Products...">
+                        <button type="submit" class="absolute top-0 right-0 py-2.5 px-6 text-sm font-medium text-white bg-buttered-rum-700 rounded-full border-2 border-solid border-buttered-rum-700 focus:outline-none">
+                            <svg aria-hidden="true" class="w-5 h-5" fill="none" stroke="white" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+                            <span class="sr-only">Search</span>
+                        </button>
+                    </div>
+                </div>
+            </form>
+            </div>
+          <div class="flex flex-row w-1/3 gap-4 items-center text-center justify-end mx-12">
+
+            <div><a href=""><img class="w-8 h-8" src="./assets/svg/user.svg" alt=""></a></div>
+            <div><a href=""><img class="w-8 h-8" src="./assets/svg/heart.svg" alt=""></a></div>
+            <div class="relative"><a href=""><img class="w-8 h-8" src="./assets/svg/shopping-bag.svg" alt=""></a><div class="absolute -bottom-3 -right-3 w-6 h-6 bg-buttered-rum-700 rounded-full items-center justify-center text-center font-medium text-white"><span>0</span></div></div>
+
+          </div>
+        </div>
+        <div class="flex flex-row items-center text-center justify-center">
+          <ul class="flex gap-8 justify-between text-lg text-black">
+            <li> <a href="index.html">Home</a></li>
+            <li class="text-buttered-rum-700 font-medium transition ease-in duration-1000"><a href="#">Shop<span class="w-3/4 h-1 rounded-full bg-buttered-rum-700 block"></span></a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Gallery</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <!-- HEADER -->
+    <!-------------X----X-------------->
+
+
+    <!-- HERO -->
+    <section></section>
+    <!-- HERO -->
+
+    <!-- PARTIALS -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
