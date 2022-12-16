@@ -1,0 +1,46 @@
+.carousel .carousel-item {
+    width: 100%;
+    height: 55vh;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.carousel .carousel-item:first-of-type {
+    background-image: url("https://via.placeholder.com/1760x510.png");
+}
+
+.carousel .carousel-item:nth-of-type(2) {
+    background-image: url("https://via.placeholder.com/1760x510.png");
+}
+
+.carousel .carousel-item:last-of-type {
+    background-image: url("https://via.placeholder.com/1760x510.png");
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 50px;
+  width: 50px;
+  outline: #fff;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: 4px solid #fff;
+  background-image: none;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 5px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+
+
+.carousel-indicators .carouselButtons {
+    width: 10px;
+    height: 10px;
+    border-radius: 10px ;
+}
