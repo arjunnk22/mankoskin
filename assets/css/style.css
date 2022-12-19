@@ -4,6 +4,31 @@
     scroll-behavior: smooth;
 }
 
+
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background-color: rgba(190, 190, 190, 0.5);
+    border-radius: 8px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgba(49, 49, 49, 0.349); 
+    border-radius: 8px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(49, 49, 49, 0.349); 
+  }
+
+
 .mainHeader {
     padding: 10px;
     background: white;
@@ -71,10 +96,13 @@
 .dealCarouselbase .dealCarouselControl-left,.dealCarouselbase .dealCarouselControl-right {
     
     width: 60px;
-    background: #000;
-    color: white;
-    text-align: center;
+    background: rgba(166, 131, 17, 0.2);
     
+    color: black;
+
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
 }
 
 
@@ -82,7 +110,7 @@
     position: relative;
     top: 50%;
     left: 0;
-    font-size: x-large;
+
 }
 .dealCarousel {
     display: flex;
@@ -90,7 +118,7 @@
     margin-left: 20px;
     margin-right: 20px;
     overflow: hidden;
-    overflow-x: scroll;
+    overflow-x: auto;
     scroll-behavior: smooth;
     padding: 20px;
 }
