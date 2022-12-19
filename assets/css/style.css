@@ -49,8 +49,8 @@
 
 .contentContainer {
     background-color: white;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
     margin-top:30px;
 }
 
@@ -177,4 +177,27 @@
     background: #000;
     width: 20%;
     border-radius: 0 0 20px 0;
+}
+
+.contentHolder {
+    margin-top: 20px;
+    width: 100%;
+    height: 400px;
+    display: flex;
+}
+
+.contentHolder .contentHolderBase{
+    display: flex;
+    flex-direction: row;
+}
+
+.contentHolder .contentHolderBase .imageHolder{
+    width: 400px;
+    height: 400px;
+}
+
+.contentHolder .contentHolderBase .contentsTab {
+    padding: 50px;
+    text-align: justify;
+    
 }
